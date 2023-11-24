@@ -12,7 +12,7 @@ def main():
     df=pd.read_csv('./data/fuel_econ.csv')
 
     st.title('자동차 데이터분석~')
-    st.header('차트보기')
+    
     
     if st.checkbox('데이터프레임 보기'):
         st.dataframe(df)
